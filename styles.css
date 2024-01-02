@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: rgb(217, 215, 215);
-
 }
 
 main {
@@ -13,8 +13,6 @@ main {
     margin: auto;
     background-color: #848484;
     height: 100vh;
-
-
 }
 
 
@@ -29,34 +27,24 @@ li {
     align-items: center;
     cursor: pointer;
     user-select: none;
-
-
 }
 
 
 
 form {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 15px;
+ 
     background-color: #0069d9;
     font-weight: bolder;
-    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px;
 
-}
-
-form label {
-    margin-right: 10px;
 }
 
 form input[type="text"] {
-
     padding: 5px;
     border-radius: 5px;
     font-size: 16px;
-
 }
 
 .btn {
@@ -125,12 +113,9 @@ form input[type="text"] {
 
 }
 
-.test {
-    gap: 5px;
-}
+
 
 select {
-    height: 30px;
     border-radius: 5px;
     font-size: large;
 }
@@ -154,13 +139,12 @@ select {
 }
 
 .produit {
-
     position: relative;
-    width: 460px;
-height: 25px;
+    width: 90%;
+    height: 40px;
 }
 
-.check{
+.check {
     position: absolute;
     right: 5px;
     top: 10px;
